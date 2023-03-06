@@ -1,7 +1,10 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\crud",
+    "\\crud\\crud",
+    "\\crud\\crud\\Controllers"
   ],
-  "SelectedNode": "\\C:\\Users\\ponniah.g\\Source\\Repos\\Sample_netcore",
+  "SelectedNode": "\\crud\\crud\\Controllers\\EmployeeController.cs",
   "PreviewInSolutionExplorer": false
 }
