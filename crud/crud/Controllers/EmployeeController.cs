@@ -56,7 +56,7 @@ namespace crud.Controllers
         {
             var emp = _crudService.Delete(id);
             if (emp == null)
-                return NotFound("ErrorYGHJ,MYHFJMJYHM");
+                return NotFound("Error");
             return Ok(emp);
             
         }
