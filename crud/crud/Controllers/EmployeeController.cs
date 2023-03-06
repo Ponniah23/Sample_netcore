@@ -52,12 +52,12 @@ namespace crud.Controllers
         }
 
         [HttpDelete("{id}")]
-        public async Task<ActionResult<List<employee>>> Delete (int id)
+        public async void Delete (int id)
         {
-            var emp = _crudService.Delete(id);
-            if (emp == null)
-                return NotFound("Error");
-            return Ok(emp);
+            //var emp = _crudService.Delete(id);
+            //if (emp == null)
+            //    return NotFound("Error");
+            //return Ok(emp);
             
         }
     }
